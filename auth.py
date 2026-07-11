@@ -1,5 +1,6 @@
 """auth.py"""
 from database import fetch_one,execute_query
+from calculations import is_valid_age
 def login():
     username=input("Username: ").strip()
     password=input("Password: ").strip()
@@ -25,10 +26,11 @@ def register():
     password=input("Password: ")
 
     age=input("Age: ")
-    age = int(age)
-    if age < 5 and age > 120:
+    
+    if is_valid_age(age):
         print("Invalid age.")
         return False
+    age = int(age)
     
 
     gender=input("Gender (Male/Female): ").title()

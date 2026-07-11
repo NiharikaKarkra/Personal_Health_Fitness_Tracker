@@ -423,6 +423,9 @@ def view_history(user_id):
         print("\nNo health records found.")
         input("\nPress Enter to continue...")
         return
+    
+    steps_list = []
+    weight_list = []
 
     for record in records:
 
@@ -435,6 +438,21 @@ def view_history(user_id):
         print(f"Sleep  : {record['sleep']} hrs")
         print("-" * 40)
 
+        steps_list.append(record["steps"])
+        weight_list.append(record["weight"])
+
+    query = """
+        SELECT height FROM users WHERE user_id =%s
+    """
+
+    user = fetch_one(query, (user_id,))
+    
+    display_summary(
+        steps_list,
+        weight_list,
+        bmi,
+        category
+    )
     input("\nPress Enter to continue...")
 
 
