@@ -241,6 +241,3 @@ def display_daily_record(record):
     print(f"Water       : {record['water']} L")
     print(f"Sleep       : {record['sleep']} hrs")
     print("-" * 40)
-
-if __name__ == "__main__":
-    admin_menu()
