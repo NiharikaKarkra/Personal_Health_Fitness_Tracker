@@ -12,11 +12,11 @@ def connect_database():
         connection = mysql.connector.connect(**DB_CONFIG)
 
         if connection.is_connected():
-            print("Connected to MYSQL database")
-        return connection
+            #print("Connected to MYSQL database")
+            return connection
 
     except mysql.connector.Error as error:
-        print("Database Connection Error:", error)
+        #print("Database Connection Error:", error)
         return None
 
 #Executing Query
