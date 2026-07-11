@@ -447,6 +447,9 @@ def view_history(user_id):
 
     user = fetch_one(query, (user_id,))
     
+    latest_weight = records[0]["weight"]
+    bmi = calculate_bmi(latest_weight, user["height"])
+    category = get_bmi_category(bmi)
     display_summary(
         steps_list,
         weight_list,
