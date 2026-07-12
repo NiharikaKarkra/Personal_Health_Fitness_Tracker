@@ -36,7 +36,7 @@ College: SVIET
 
 ## Project Files
 
-'''
+```
 main.py            -> starting point of the project, shows main menu
 auth.py             -> login and register code
 user.py              -> user panel (profile, add record, history)
@@ -48,13 +48,13 @@ config.py                   -> database username password etc
 requirements.txt              -> required python library
 test_connection.py             -> file to test database connection
 screenshots/                     -> screenshots of the project
-'''
+```
 
 ## How to Run this Project
 
 1. Install MySQL and create a database
 
-\`\`\`sql
+```sql
 CREATE DATABASE health_tracker;
 USE health_tracker;
 
@@ -79,30 +79,30 @@ CREATE TABLE daily_records (
     sleep FLOAT,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
-\`\`\`
+```
 
 2. Install the required library
 
-\`\`\`
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 3. Open `config.py` and add your own MySQL username and password
 
-\`\`\`python
+```python
 DB_CONFIG = {
     "host": "localhost",
     "user": "your_username",
     "password": "your_password",
     "database": "health_tracker"
 }
-\`\`\`
+```
 
 4. Run the project
 
-\`\`\`
+```
 python3 main.py
-\`\`\`
+```
 
 ## Screenshots
 
