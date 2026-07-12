@@ -36,7 +36,7 @@ College: SVIET
 
 ## Project Files
 
-\`\`\`
+'''
 main.py            -> starting point of the project, shows main menu
 auth.py             -> login and register code
 user.py              -> user panel (profile, add record, history)
@@ -48,7 +48,7 @@ config.py                   -> database username password etc
 requirements.txt              -> required python library
 test_connection.py             -> file to test database connection
 screenshots/                     -> screenshots of the project
-\`\`\`
+'''
 
 ## How to Run this Project
 
