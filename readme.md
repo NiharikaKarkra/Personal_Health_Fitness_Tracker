@@ -108,49 +108,78 @@ python3 main.py
 
 (Put all the screenshots inside a folder named `screenshots` in the project, with the same file names, so these images show up properly)
 
-Main Menu
+###Main Menu
+
 ![Main Menu](screenshots/main_page_recent_update.png)
 
-Register
+###Register
+
+
 ![Register](screenshots/register.png)
 
-Login and User Panel
+###Login and User Panel
+
+
 ![Login](screenshots/login.png)
 
-View Profile
+###View Profile
+
+
 ![View Profile](screenshots/view_profile.png)
 
-Record Already Added (Analysis Shown)
+###Record Already Added (Analysis Shown)
+
+
 ![Record Exists](screenshots/record_exist.png)
 
-Add Health Record
+###Add Health Record
+
+
 ![Add Record](screenshots/add_record.png)
 
-View Health History and Summary
+###View Health History and Summary
+
+
 ![History](screenshots/health_history.png)
 
-Update Profile
+###Update Profile
+
+
 ![Update Profile](screenshots/update_rec.png)
 
-Profile After Update
+###Profile After Update
+
+
 ![Profile Updated](screenshots/profile_upd.png)
 
-Admin Login and View All Users
+###Admin Login and View All Users
+
+
 ![Admin Panel](screenshots/admin_login.png)
 
-View All Users (continued)
+###View All Users (continued)
+
+
 ![All Users](screenshots/view_users.png)
 
-Search User
+###Search User
+
+
 ![Search User](screenshots/search_user.png)
 
-Delete User
+###Delete User
+
+
 ![Delete User](screenshots/delete_user.png)
 
-View Daily Records
+###View Daily Records
+
+
 ![Daily Records](screenshots/view_daily_rec.png)
 
-Exit
+###Exit
+
+
 ![Exit](screenshots/exit.png)
 
 ## Future Improvements
