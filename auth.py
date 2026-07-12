@@ -27,7 +27,7 @@ def register():
 
     age=input("Age: ")
     
-    if is_valid_age(age):
+    if not is_valid_age(age):
         print("Invalid age.")
         return False
     age = int(age)

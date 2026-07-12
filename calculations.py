@@ -35,7 +35,7 @@ def get_sleep_quality(hours):
 def calculate_weekly_average(values): return round(sum(values)/len(values),2) if values else 0
 def highest_value(values): return max(values) if values else None
 def lowest_value(values): return min(values) if values else None
-def is_valid_age(v): return str(v).isdigit() and 5<=int(v)<=120
+def is_valid_age(age): return str(age).isdigit() and 5<=int(age)<=120
 
 # VALIDATIONS
 

@@ -5,8 +5,13 @@ from admin import admin_menu
 
 while True:
 
-    print("\n" + "=" * 40)
-    print("PERSONAL HEALTH FITNESS TRACKER")
+    print("\n" + "=" * 60)
+    print("         PERSONAL HEALTH FITNESS TRACKER")
+    print("=" * 60 + "\n")
+
+    print("Imp:- You need to enter only numbers to select " \
+            "anything from a menu in this application\n")
+    
     print("1. Register")
     print("2. Login")
     print("3. Exit")
